@@ -1,6 +1,40 @@
-.card{
-    background-color: red;
-    padding: .75rem 1rem;
-    margin: .75rem 1rem;
+.card {
+  background-color: var(--color-grey-light-2);
+  height: 25rem;
+  padding: 2rem 2rem;
+  margin: 0.75rem 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  transition: all .5s;
+
+  .main{
+
+    h2{
+        background-image: var(--gradient);
+        clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+        font-size: 2rem;
+        text-transform: capitalize;
+        margin-bottom: 1rem;
+    }
+    p{
+        font-size: 1.4rem;
+    }
+  }
+  .ids{
+    margin-top: 4rem;
+    width: 20%;
     border-radius: 5px;
+    background-image: var(--gradient);
+
+    p{
+        font-size: 1.2rem;
+    }
+  }
+
+  &:hover{
+    transform: scale(1.02);
+    background-color: var(--color-grey-light-3);
+  }
 }

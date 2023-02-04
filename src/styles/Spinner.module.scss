@@ -1,0 +1,23 @@
+.spinner{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &::after{
+        border: dashed var(--color-primary) .8rem;
+        content: '';
+        padding: 5rem;
+        animation: spin 2s linear infinite;
+        border-radius: 50%;
+    }
+
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+}
