@@ -4,6 +4,7 @@ import DashBoard from './components/DashBoard';
 
 function App() {
   const divElement = useRef<HTMLDivElement>(null);
+  
   useEffect(() => {
     window.scrollTo({
       behavior: 'smooth',
