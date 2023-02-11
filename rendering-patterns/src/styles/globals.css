@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color: var(color-grey-light-1);
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: var(--color-grey-light-3);
+  background-color: var(--bg-secondary-2);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 10rem;
+  /* min-height: calc(100vh - 2 * 4vw); */
+}
+
+:root {
+  --color-primary: #ff7b61;
+  --color-primary-light: #f7694d;
+  --color-primary-light-2: #fec2b6;
+  --color-primary-dark: #ff512e;
+  --light-teal: #53dfdb;
+  --dark-teal: #1b8f8c;
+
+  --color-grad-1: #fbdb89;
+  --color-grad-2: #f48982;
+  --color-grey-light-1: #f9f5f3;
+  --color-grey-light-2: #f2efee;
+  --color-grey-light-3: #d3c7c3;
+  --color-grey-dark-1: #615551;
+  --color-grey-dark-2: #918581;
+
+  --bg-primary: #22262f;
+  --bg-secondary: #262c38;
+  --bg-secondary-2: #31353e;
+
+  --gradient: linear-gradient(
+    to right bottom,
+    var(--color-grey-light-1),
+    var(--dark-teal)
+  );
+}

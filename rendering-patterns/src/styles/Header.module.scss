@@ -1,0 +1,14 @@
+.header {
+  border-bottom: 1px var(--color-grey-light-3) solid;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  .text {
+    margin-bottom: 2.15rem;
+    font-size: 3rem;
+    font-weight: 500;
+  }
+}

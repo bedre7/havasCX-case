@@ -1,0 +1,16 @@
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  img {
+    height: 40rem;
+    width: auto;
+  }
+}
+.title{
+  margin: 2.5rem 0;
+}
+.author{
+  margin: 1rem 0;
+}
